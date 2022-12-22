@@ -2,5 +2,5 @@ name: Ctheme
 type: theme
 description: A custom theme for theme practice.
 core_version_requirement: ^8 || ^9
-base theme: stable
+base theme: bartik
 hidden: false
