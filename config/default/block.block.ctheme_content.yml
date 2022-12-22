@@ -1,0 +1,22 @@
+uuid: 815c7ed2-0acc-45c7-9339-b9c5c243f166
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ctheme
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: ctheme_content
+theme: ctheme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
