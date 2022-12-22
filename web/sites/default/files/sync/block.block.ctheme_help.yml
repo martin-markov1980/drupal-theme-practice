@@ -1,0 +1,22 @@
+uuid: 054390ca-75a8-4b81-a9df-5949d72bb17f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ctheme
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: ctheme_help
+theme: ctheme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
